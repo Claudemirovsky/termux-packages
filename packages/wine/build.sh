@@ -1,0 +1,10 @@
+TERMUX_PKG_HOMEPAGE=https://www.winehq.org/
+TERMUX_PKG_DESCRIPTION="Wine enables *nix users to run Windows apps without a copy of Windows"
+TERMUX_PKG_LICENSE="LGPL-3.0"
+TERMUX_PKG_MAINTAINER="@termux"
+TERMUX_PKG_VERSION="8.0-rc1"
+TERMUX_PKG_BLACKLISTED_ARCHES="arm, aarch64, x86_64"
+TERMUX_PKG_SRCURL=https://dl.winehq.org/wine/source/8.0/wine-8.0-rc1.tar.xz
+TERMUX_PKG_SHA256=3eddc7c5f008686767fe5267cecf7d296055475f00cb592c214b72404c9937d2
+TERMUX_PKG_DEPENDS="libx11, flex, bison"
+TERMUX_PKG_EXTRA_CONFIGURE_ARGS="--with-wine-tools"
